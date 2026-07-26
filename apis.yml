@@ -1,7 +1,14 @@
 aid: dyna
 name: Dyna
-description: 'Dyna is a company surfaced as a portfolio company of crv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'DYNA Robotics builds commercial-grade, general-purpose robots for real-world
+  automation across factories, restaurants, and laundromats. Its flagship DYNA-1 is
+  a dual-arm robotic system powered by a vision-language-action (VLA) foundation model,
+  running 24/7 in production with a reported 99.4% success rate and human-level dexterity.
+  The company positions itself as building embodied AGI through high-performance robots
+  that adapt across environments and learn new skills rapidly with minimal custom engineering.
+  Backed by CRV, DYNA closed a $120M Series A in 2025. No public API, developer portal,
+  or machine-readable API surface has been published to date; this profile tracks the
+  company as an AI/robotics lead in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/dyna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +16,29 @@ x-backed-by:
 - crv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.dyna.co/videos/hero-poster.jpg
 tags:
 - Company
-- Ai
+- AI
+- Robotics
+- Automation
+- Embodied AI
+- Foundation Models
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dyna-domain-security.yml
 - type: Website
   url: https://www.dyna.co/
+- type: Blog
+  url: https://www.dyna.co/blog
+- type: Support
+  url: https://www.dyna.co/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
